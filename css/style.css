@@ -57,20 +57,20 @@ td, p {
   max-width: 140px;
   transform: rotate(45deg);
   position: absolute;
-  left: 26%;
+  left: 20%;
   bottom: 40%;
 }
 
 .cold-img {
   position: absolute;
-  left: 18%;
+  left: 12%;
   bottom: 14%;
   max-width: 150px;
 }
 
 .mountain {
   position: absolute;
-  right: 18%;
+  right: 12%;
   bottom: 3%;
 }
 
@@ -92,7 +92,7 @@ td, p {
 .coding-img {
   max-width: 130px;
   float: left;
-  margin: 40px 28px 80px auto;
+  margin: 40px 28px 28px auto;
 }
 
 .linguistics-img {
