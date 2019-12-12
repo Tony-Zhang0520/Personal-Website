@@ -69,14 +69,14 @@ font-size: 3.4vw;
   position: absolute;
   left: 12%;
   bottom: 14%;
-  max-width: 12%;
+  width: 12%;
 }
 
 #mountain {
   position: absolute;
   right: 20%;
   bottom: 2%;
-  max-width:33%
+  width:33%;
 }
 
 .top-container {
@@ -193,4 +193,54 @@ color: #293a80;
   background: -webkit-gradient(linear, left top, left bottom, from(#4FCFA0), to(#BAEEE4));
   background: -moz-linear-gradient(top, #4FCFA0, #BAEEE4);
   text-decoration: none;
+}
+
+@media (max-width:970px) {
+  .top-container {
+    padding-top: 120px;
+  }
+  #topHeading{
+  font-size: 6vw;
+  }
+
+  #subHeading {
+    font-size: 4vw;
+    display: inline-block;
+    width:50%
+}
+#snowflake1 {
+    top: 18%;
+    right: 18%;
+}
+
+#snowflake2 {
+    left: 12%;
+}
+
+#cold-img {
+  width: 16%;
+}
+
+
+@media (max-width:800px){
+.top-container {
+  height:500px;
+  padding-top: 100px;
+}
+#mountain {
+  width:50%;
+  bottom: 5%;
+  right:10%;
+}
+}
+
+@media (max-width:600px){
+  .top-container {
+    height:450px;
+  }
+#mountain {
+  width:60%;
+  bottom: 5%;
+  right:10%;
+}
 }
